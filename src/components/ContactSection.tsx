@@ -145,7 +145,7 @@ export function ContactSection({ language }: ContactSectionProps) {
   ];
 
   return (
-    <section className="w-full py-16 md:py-24 mb-16">
+    <section id='contact' className="w-full py-16 md:py-24 mb-16">
       <div className="container mx-auto max-w-7xl px-4">
         <div className="flex flex-col md:flex-row gap-6">
           {/* Coluna 1: Card de Informações de Contato (COM A CORREÇÃO) */}
